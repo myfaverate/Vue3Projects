@@ -30,6 +30,7 @@ function checkPassword(): boolean {
         return true
     }
 }
+
 function login(): void {
     if (checkUsername() && checkPassword()) {
         Axios({
